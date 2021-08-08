@@ -1,0 +1,50 @@
+.role-wrapper {
+    display: flex;
+    background: white;
+    border: 1px solid #E9EDF2;
+    text-align: center;
+
+
+    .person-info-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .avatar-row {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 0 30px;
+    }
+
+    .roles-names-wrapper {
+        width: 260px;
+    }
+
+    .roles-names-wrapper .emploee-name{
+        padding-top: 20px;
+    }
+
+    .emploee-native-name {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 15px;
+        color: #AFB7BF;
+        padding-bottom: 24px;
+    }
+
+    .roles-button {
+        margin: 24px 0 0 0px;
+        width: 80px;
+        height: 36px;
+        border: 1px solid #E9EDF2;
+        text-transform: uppercase;
+        background:#fff;
+        color: #a8aaac;
+    }
+    
+    .roles-checked {
+        background:#5495FF;
+        color: #E9EDF2;
+    }
+}

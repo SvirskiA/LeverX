@@ -1,0 +1,28 @@
+.radio-wrapper-in-card {
+    display: flex;
+
+    .radioInputWrapper {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #333D47; 
+        width: 80px;
+    }
+    .radioHeading {
+        width: 266px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #818D99;
+    }
+    .radioInput {
+        margin-right: 6px;
+    }
+
+    .radioValue {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #333D47;
+    }
+}

@@ -1,0 +1,23 @@
+.dropWrapper {
+    display: flex;
+
+        .dropHeading {
+        width: 266px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #818D99;
+    }
+    .select-edit {
+        width: 260px;
+        height: 31px;
+        padding-left: 10px;
+    }
+
+    .dropValue {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #333D47;
+    }
+}

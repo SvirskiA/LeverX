@@ -1,0 +1,26 @@
+.inputWrapper {
+    display: flex;
+
+    .input-in-card {
+        width: 260px;
+        height: 31px;
+        margin: 2px 0;
+        padding-left: 10px;
+    }
+    
+    .inputHeading {
+        width: 266px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #818D99;
+    }
+
+    .inputValue {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #333D47; 
+    }
+}
+

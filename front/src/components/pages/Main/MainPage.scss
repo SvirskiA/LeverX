@@ -1,0 +1,110 @@
+a {
+    text-decoration: none;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.main {
+    min-height: 92.7vh;
+    background: #F0F0F0;
+
+    .mainWrapper {
+        display: flex;
+        width: 1170px;
+        margin: auto;
+    }
+    .search {
+        width: 370px;
+        height: 130px;
+    }
+    .search-modes {
+        display: flex;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #AFB7BF;
+    }
+    .search-modes-active {
+        color: #333D47;
+        padding: 26px 10px 15px 8px;
+        border-bottom: 2px solid blue;
+    }
+    .search-modes-not-active {
+        padding: 26px 0 0 16px;
+    }
+    .basic-search-form {
+        width: 370px;
+        height: 130px;
+        background-color: #ffffff;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: 0px 1px 3px rgba(32, 75, 146, 0.15);
+        border-radius: 5px;
+    }
+    .search-field {
+        /* background: url("../img/search.svg") no-repeat center left; */
+        margin: 24px 0 0 24px;
+        padding-left: 41px; 
+        width: 320px;
+        height: 36px;
+        border: 1px solid #DAE1E8;
+        border-radius: 4px;
+    }
+    .search-submit {
+        margin: 11px 0 0 24px;
+        width: 320px;
+        height: 36px;
+        background: #5495FF;
+        border-radius: 3px; 
+        border: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+    /* emploees */
+    .displayed-emploees {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 10px 0 0 29px;
+    }
+    .employees {
+        width: 100%;
+    }
+    .employees-view {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .emploees-root {
+        display: grid;  
+    }
+    .emploees-root-grid {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10px 0 0 22px;
+    }
+    .emploee-wrapper {
+        background: white;
+        border: 1px solid #E9EDF2;
+        margin: 5px;
+        text-align: center;
+    }
+    .emploee-wrapper-grid {
+        width: 250px;
+        height: 290px;
+        
+        border-radius: 4px;
+        box-shadow: 0px 1px 3px rgba(32, 75, 146, 0.15);
+    }
+    .emploee-wrapper-row {
+        display: flex;
+        text-align: left;
+        margin: 0 5px;
+    }
+
+
+}
+

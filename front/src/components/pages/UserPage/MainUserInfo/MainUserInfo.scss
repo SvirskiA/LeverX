@@ -1,0 +1,64 @@
+.main-info-wrapper {
+    position: relative;
+    width: 358px;
+    padding-right: 12px;
+    border-right: 1px solid #E9EDF2;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.vacation-indicator-in-card {
+    position: absolute;
+    left: 65px;
+    top: 159px;
+    border-radius: 50%;
+}
+.vacation-info-in-card {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 131px;
+    top: 160px;
+    background: #000E26;
+    opacity: 0.9;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    line-height: 41px;
+}
+.wrapper-in-card {
+    display: flex;
+    margin: 16px 0 15px;
+}
+.avatar-in-card {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.sex-in-card {
+    margin-top: 17px;
+    font-size: 15px;
+    color: #AFB7BF;
+}
+.emploee-name-in-card {
+    margin-top: 6px;
+    font-size: 18px;
+    color: #333D47;
+}
+.emploee-native-name-in-card {
+    margin-top: 6px;
+    font-size: 15px;
+    color: #AFB7BF;
+}
+.back-button-in-card {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.hidden {
+    display: none;
+}
